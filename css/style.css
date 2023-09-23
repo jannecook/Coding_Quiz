@@ -1,1 +1,6 @@
-Media query for responsive interface
+
+/* Media query for responsive interface */
+
+#mcanswerkey {
+    display: none;
+}
