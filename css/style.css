@@ -1,4 +1,10 @@
-
+header {
+    padding: 30px;
+    text-align: center;
+    background: #8eb4d7;
+    color: #052427c1;
+  }
+  
 /* Media query for responsive interface */
 
 #mcanswerkey {
