@@ -21,16 +21,12 @@ function Timer() {
     }
 function sendMessage() {
     //select location for message
-    //e.g. timeEl.textContent = "Game Over."
+    timeEl.textContent = "Game Over."
 }
-//Run timer function.
-ADD EVENT LISTENER FOR BUTTON CLICK HERE setTimeout();
 
-//Multiple choice questions
-//Update HTML and CSS elements through JavaScript ConvolverNode
-//Store high scores
-//Start button - event listener start timer and present first question
-//Next question pops up when answer submitted
-//Incorrect response results in lost time
-//Ends upon running out of questions or timer expiring
-//Upon game over, option to save initials and score
+localStorage.setItem("initials", initials);
+localStorage.setItem("score", score);
+renderLastRegistered();
+
+//Run timer function.
+setTimeout();
